@@ -1,0 +1,70 @@
+html {
+    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color:aqua;
+    border: 10px solid pink;
+    
+}
+  
+
+  h1{
+        margin: 0 250px;
+        padding: 20px 0;
+        color: #00539f;
+        text-shadow: 6px 3px 1px black;
+      }
+
+  p,
+  li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  body{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid black;
+  }
+ 
+  @keyframes h1 {
+    0% {background-color: blue;
+    transform: translateY(200px);}
+    25% {background-color: yellow;}
+    50% {background-color: brown;
+    border-radius: 100%;}
+    100%{background-color: red;
+    transform:rotate(90deg);}
+}
+
+h1{
+    width: 200px;
+    height: 200px;
+    animation-name:h1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    filter: none;
+   }
+
+   a:hover{
+    color: red;
+   }
+
+   a{
+    text-decoration: none;
+    font-size: 200px;
+   }
+
+
+
+
+
+
+
+
+    
+
+
